@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Heading, Text, Flex, Avatar, Link, List, ListItem, ListIcon, Progress, FormControl, FormLabel, Input, Textarea, Button, useColorModeValue } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaBriefcase, FaCode, FaPaperPlane } from "react-icons/fa";
+import FamilySection from "../components/FamilySection";
 
 const Index = () => {
   return (
@@ -151,11 +152,11 @@ const Index = () => {
           </Heading>
           <Box>
             <Text mb={4}>In my free time, I enjoy horseback riding. I've been riding for over 10 years and find it to be a great way to unwind and connect with nature. Some of my most memorable experiences include riding through the mountains of Colorado and participating in local equestrian events.</Text>
-            {}
           </Box>
         </Box>
 
         {}
+        <FamilySection />
         <Box mb={8} id="contact">
           <Heading as="h2" variant="section-title" mb={4}>
             Contact Me
