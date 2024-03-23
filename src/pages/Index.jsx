@@ -26,6 +26,9 @@ const Index = () => {
           <Link px={2} py={1} rounded={"md"} _hover={{ textDecoration: "none", bg: useColorModeValue("gray.200", "gray.700") }} href="#projects">
             Projects
           </Link>
+          <Link px={2} py={1} rounded={"md"} _hover={{ textDecoration: "none", bg: useColorModeValue("gray.200", "gray.700") }} href="#hobbies">
+            Hobbies
+          </Link>
           <Link px={2} py={1} rounded={"md"} _hover={{ textDecoration: "none", bg: useColorModeValue("gray.200", "gray.700") }} href="#contact">
             Contact
           </Link>
@@ -141,7 +144,18 @@ const Index = () => {
           </Flex>
         </Box>
 
-        {/* Contact Section */}
+        {}
+        <Box mb={8} id="hobbies">
+          <Heading as="h2" variant="section-title" mb={4}>
+            Hobbies
+          </Heading>
+          <Box>
+            <Text mb={4}>In my free time, I enjoy horseback riding. I've been riding for over 10 years and find it to be a great way to unwind and connect with nature. Some of my most memorable experiences include riding through the mountains of Colorado and participating in local equestrian events.</Text>
+            {}
+          </Box>
+        </Box>
+
+        {}
         <Box mb={8} id="contact">
           <Heading as="h2" variant="section-title" mb={4}>
             Contact Me
