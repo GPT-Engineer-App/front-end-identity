@@ -160,7 +160,7 @@ const Index = () => {
                 <FormLabel>Message</FormLabel>
                 <Textarea rows={4} />
               </FormControl>
-              <Button mt={4} colorScheme="green" type="submit" leftIcon={<FaPaperPlane />}>
+              <Button mt={4} colorScheme="yellow" type="submit" leftIcon={<FaPaperPlane />}>
                 Send Message
               </Button>
             </form>
