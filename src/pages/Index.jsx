@@ -117,6 +117,70 @@ const Index = () => {
                 </Box>
               </Box>
             </Box>
+            <Box width={{ base: "100%", md: "50%" }} pr={{ base: 0, md: 4 }} mb={4}>
+              <Box borderWidth={1} borderRadius="lg" overflow="hidden">
+                <Box p={4}>
+                  <Heading as="h3" size="md" mb={2}>
+                    Project 3
+                  </Heading>
+                  <Text mb={2}>A weather app that displays current weather conditions and a 5-day forecast. Uses the OpenWeatherMap API and is built with React and Axios.</Text>
+                  <Flex align="center">
+                    <Link href="#" mr={4}>
+                      <FaGithub />
+                    </Link>
+                    <Link href="#">Live Demo</Link>
+                  </Flex>
+                </Box>
+              </Box>
+            </Box>
+            <Box width={{ base: "100%", md: "50%" }} pl={{ base: 0, md: 4 }} mb={4}>
+              <Box borderWidth={1} borderRadius="lg" overflow="hidden">
+                <Box p={4}>
+                  <Heading as="h3" size="md" mb={2}>
+                    Project 4
+                  </Heading>
+                  <Text mb={2}>A movie database app that allows users to search for movies, view details, and save favorites. Utilizes The Movie Database API and is built with React and React Router.</Text>
+                  <Flex align="center">
+                    <Link href="#" mr={4}>
+                      <FaGithub />
+                    </Link>
+                    <Link href="#">Live Demo</Link>
+                  </Flex>
+                </Box>
+              </Box>
+            </Box>
+            <Box width={{ base: "100%", md: "50%" }} pr={{ base: 0, md: 4 }} mb={4}>
+              <Box borderWidth={1} borderRadius="lg" overflow="hidden">
+                <Box p={4}>
+                  <Heading as="h3" size="md" mb={2}>
+                    Project 5
+                  </Heading>
+                  <Text mb={2}>A recipe app that allows users to browse, search, and save recipes. Features a responsive design and is built with React, Chakra UI, and Contentful CMS.</Text>
+                  <Flex align="center">
+                    <Link href="#" mr={4}>
+                      <FaGithub />
+                    </Link>
+                    <Link href="#">Live Demo</Link>
+                  </Flex>
+                </Box>
+              </Box>
+            </Box>
+            <Box width={{ base: "100%", md: "50%" }} pl={{ base: 0, md: 4 }} mb={4}>
+              <Box borderWidth={1} borderRadius="lg" overflow="hidden">
+                <Box p={4}>
+                  <Heading as="h3" size="md" mb={2}>
+                    Project 6
+                  </Heading>
+                  <Text mb={2}>A real-time chat application built with React, Firebase, and Chakra UI. Supports user authentication, real-time messaging, and user presence indicators.</Text>
+                  <Flex align="center">
+                    <Link href="#" mr={4}>
+                      <FaGithub />
+                    </Link>
+                    <Link href="#">Live Demo</Link>
+                  </Flex>
+                </Box>
+              </Box>
+            </Box>
           </Flex>
         </Box>
 
